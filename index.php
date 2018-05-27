@@ -6,8 +6,12 @@
       <div class="col-md-7">
         <h1>Özgür Yazılım Yaz Kampı</h1>
         <p>
-          9. Özgür Yazılım Yaz Kampı 20 Temmuz-4 Ağustos 2018 tarihlerinde Bolu'da düzenleniyor.<br>
-          Başvuru öncesinde kursların detaylarını <a href="/2018/kurslar">Kurslar</a> sayfasında inceleyiniz.<br>
+          9. Özgür Yazılım Yaz Kampı 20 Temmuz - 4 Ağustos 2018 tarihlerinde Bolu'da düzenleniyor.
+        </p>
+        <p>
+          Başvuru öncesinde kursların detaylarını <a href="/2018/kurslar">Kurslar</a> sayfasında inceleyiniz.
+        </p>
+        <p>
           Kampa ilişkin hemen her sorunun yanıtını <a href="/2018/sik-sorulan-sorular">Sık Sorulan Sorular</a> sayfasında bulabilirsiniz.
         </p>
       </div>
@@ -20,7 +24,7 @@
                 Eğitimlerin Belirlenmesi
               </div>
               <div class="calendar-content-block-desc">
-                01-10 Haziran
+                01 - 10 Haziran
               </div>
             </div>
             <div class="calendar-content-block course">
@@ -28,31 +32,31 @@
                 Katılımcı Başvuruları
               </div>
               <div class="calendar-content-block-desc special-date">
-                15-30 Haziran
+                15 - 30 Haziran
               </div>
             </div>
             <div class="calendar-content-block course">
               <div class="calendar-content-block-title">
-                  1. Tur Yerleştirmeler
+                1. Tur Yerleştirmeler
               </div>
               <div class="calendar-content-block-desc special-date">
-                1-10 Temmuz
+                1 - 10 Temmuz
               </div>
             </div>
             <div class="calendar-content-block course">
               <div class="calendar-content-block-title">
-                  2. Tur Yerleştirmeler
+                2. Tur Yerleştirmeler
               </div>
               <div class="calendar-content-block-desc special-date">
-                10-18 Temmuz
+                10 - 18 Temmuz
               </div>
             </div>
             <div class="calendar-content-block">
               <div class="calendar-content-block-title">
                 KAMP
               </div>
-              <div class="calendar-content-block-desc">
-                20 Tem-4 Ağu
+              <div class="calendar-content-block-desc special-date">
+                20 Temmuz - 4 Ağustos
               </div>
             </div>
           </div>
