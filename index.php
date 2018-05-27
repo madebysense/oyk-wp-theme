@@ -6,7 +6,7 @@
       <div class="col-md-7">
         <h1>Özgür Yazılım Yaz Kampı</h1>
         <p>
-          9. Özgür Yazılım Yaz Kampı 20 Temmuz - 4 Ağustos 2018 tarihlerinde Bolu'da düzenleniyor.
+          Linux Kullanıcıları Derneği ve Bolu Abant İzzet Baysal Üniversitesi'nin organizasyonunu üstlendiği etkinlikte, farklı alanlarda, farklı bilgi düzeylerine hitap eden paralel sınıflarda gerçekleştirilen eğitimlere katılım ücretsizdir. Katılımcılardan yalnızca kendi yol/konaklama/yemek masraflarını karşılamaları beklenmektedir.
         </p>
         <p>
           Başvuru öncesinde kursların detaylarını <a href="/2018/kurslar">Kurslar</a> sayfasında inceleyiniz.
