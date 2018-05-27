@@ -1,0 +1,41 @@
+body {
+  @include ubuntu;
+  h1, h2, h3, h4, h5, h6 {
+    @include title;
+  }
+}
+
+a:hover,
+a:focus {
+  color: $primary-color;
+}
+
+
+.btn-lyk {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: .12s;
+  font: inherit;
+  font-size: 18px;
+  line-height: normal;
+  background: $primary-color;
+  color: $white;
+  @include ubuntu;
+  @include hover;
+  &:hover {
+    color: $white;
+    @include hoverUp
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "frontendstarter",
+  "version": "1.0.0",
+  "description": "Description",
+  "author": "Baran Somakli <baran@baransomakli.com> (http://baransomakli.com)",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-file-include": "*",
+    "gulp-cache": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "*",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp": "*"
+  },
+  "scripts": {
+    "build": "npm install && gulp"
+  }
+}
