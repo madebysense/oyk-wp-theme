@@ -6,10 +6,10 @@
       <div class="col-md-7">
         <h1>Özgür Yazılım Yaz Kampı</h1>
         <p>
-          9. Özgür Yazılım Yaz Kampı 20 Temmuz-4 Ağustos 2018 tarihlerinde Bolu’da düzenlenecek. Kursiyer başvuruları 15-30 Haziran 2018 tarihleri arasında toplanacak. <br>
-          Eğitim vermek istiyorsanız Eğitim Öneri Formunu doldurabilirsiniz.
+          9. Özgür Yazılım Yaz Kampı 20 Temmuz-4 Ağustos 2018 tarihlerinde Bolu'da düzenleniyor.<br>
+          Başvuru öncesinde kursların detaylarını <a href="/2018/kurslar">Kurslar</a> sayfasında inceleyiniz.<br>
+          Kampa ilişkin hemen her sorunun yanıtını <a href="/2018/sik-sorulan-sorular">Sık Sorulan Sorular</a> sayfasında bulabilirsiniz.
         </p>
-        <a href="#" class="btn-lyk">Eğitim Öneri Formu</a>
       </div>
       <div class="col-md-5">
         <div class="calendar">
@@ -17,7 +17,7 @@
           <div class="calendar-content">
             <div class="calendar-content-block">
               <div class="calendar-content-block-title">
-                Eğitim Önerileri
+                Eğitimlerin Belirlenmesi
               </div>
               <div class="calendar-content-block-desc">
                 01-10 Haziran
@@ -25,10 +25,26 @@
             </div>
             <div class="calendar-content-block course">
               <div class="calendar-content-block-title">
-                  Kursiyer Başvuruları
+                Katılımcı Başvuruları
               </div>
               <div class="calendar-content-block-desc special-date">
                 15-30 Haziran
+              </div>
+            </div>
+            <div class="calendar-content-block course">
+              <div class="calendar-content-block-title">
+                  1. Tur Yerleştirmeler
+              </div>
+              <div class="calendar-content-block-desc special-date">
+                1-10 Temmuz
+              </div>
+            </div>
+            <div class="calendar-content-block course">
+              <div class="calendar-content-block-title">
+                  2. Tur Yerleştirmeler
+              </div>
+              <div class="calendar-content-block-desc special-date">
+                10-18 Temmuz
               </div>
             </div>
             <div class="calendar-content-block">
@@ -36,7 +52,7 @@
                 KAMP
               </div>
               <div class="calendar-content-block-desc">
-                20 Tem-10 Ağu
+                20 Tem-4 Ağu
               </div>
             </div>
           </div>
@@ -51,12 +67,12 @@
     <div class="row">
       <div class="about-text col-md-6 col-sm-6 col-xs-12">
         <h1>Hakkında</h1>
-        <h2>Mustafa Akgül Özgür Yazılım Yaz Kampı </h2>
+        <h2>Mustafa Akgül Özgür Yazılım Yaz Kampı</h2>
         <p>
-          Linux Kullanıcıları Derneği, İnternet Teknolojileri Derneği ve Bolu Abant İzzet Baysal Üniversitesi‘nin organizasyonunu üstlendiği etkinlikte, farklı alanlarda, farklı bilgi düzeylerine hitap eden paralel sınıflarda gerçekleştirilen eğitimlere katılım ücretsizdir. Katılımcılardan yalnızca kendi yol/konaklama/yemek masraflarını karşılamaları beklenmektedir.
+          Linux Kullanıcıları Derneği ve Bolu Abant İzzet Baysal Üniversitesi'nin organizasyonunu üstlendiği etkinlikte, farklı alanlarda, farklı bilgi düzeylerine hitap eden paralel sınıflarda gerçekleştirilen eğitimlere katılım ücretsizdir. Katılımcılardan yalnızca kendi yol/konaklama/yemek masraflarını karşılamaları beklenmektedir.
         </p>
         <p>
-            Eğitimlerde kontenjan sınırlıdır. Başvurularda öncelik görevlendirme alan kamu ve üniversite bilgi işlem personellerine verilmekle beraber kampa katılım herkese açıktır.
+          Eğitimlerde kontenjan sınırlıdır. Başvurularda öncelik görevlendirme alan kamu ve üniversite bilgi işlem personellerine verilmekle beraber kampa katılım herkese açıktır.
         </p>
       </div>
       <div class="about-image col-xs-9 col-md-push-2 col-xs-push-1 col-md-3 col-sm-6 col-sm-push-0">
@@ -91,6 +107,7 @@
       <div class="past-years-list col-md-push-1 col-md-5 col-xs-12 col-sm-7">
         <h1>Geçmiş Yıllar</h1>
         <ul>
+          <li><a href="http://kamp.linux.org.tr/2016/">Linux Yaz Kampı 2017</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li><a href="http://kamp.linux.org.tr/2016/">Linux Yaz Kampı 2016</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li><a href="http://kamp.linux.org.tr/2015/">Linux Yaz Kampı 2015</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li><a href="http://kamp.linux.org.tr/2014/">Linux Yaz Kampı 2014</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
@@ -105,5 +122,3 @@
 </section>
 
 <?php get_footer(); ?>
-
-
