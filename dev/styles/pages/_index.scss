@@ -1,0 +1,214 @@
+// Section Jumbotron
+.jumbotron {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-image: url(../images/background.png);
+  @include center;
+  margin-bottom: 40px;
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    display: block;
+    height: auto;
+  }
+  h1 {
+    font-size: 55px;
+    color: $primary-color;
+    @include title;
+    padding-bottom: 15px;
+  }
+  p {
+    @include ubuntu;
+    font-size: 16px;
+    color: $primary-color;
+    line-height: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .btn-lyk {
+      margin-bottom: 20px;
+    }
+  }
+  .calendar {
+    &-title {
+      height: 60px;
+      font-size: 32px;
+      @include center;
+      color: $white;
+      @include title;
+      text-align: center;
+      background: #990000;
+    }
+    &-content {
+      font-size: 0;
+      background: #ffffff;
+      @include ubuntu;
+      &-block {
+        border-bottom: 1px solid #CACACA;
+      }
+      &-block-title {
+        display: inline-block;
+        padding-left: 20px;
+        width: 50%;
+        height: 50px;
+        font-size: 18px;
+        color: #7B7B7B;
+        border-right: 1px solid #CACACA;
+        line-height: 50px;
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          height: auto;
+          line-height: initial;
+        }
+      }
+      &-block-desc {
+        display: inline-block;
+        padding-left: 20px;
+        width: 50%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        color: #212121;
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          height: auto;
+          line-height: initial
+        }
+      }
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .special-date {
+          position: relative;
+          top: -15px;
+        }
+      }
+    }
+  }
+}
+
+// About
+.about {
+  margin-bottom: 40px;
+  &-text {
+    h1 {
+      font-size: 32px;
+      @include title;
+      color: $primary-color;
+      padding-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      @include title;
+      color: $second-color;
+      padding-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 27px;
+      @include ubuntu;
+      color: $primary-color;
+      padding-bottom: 15px;
+    }
+  }
+  &-image {
+    img {
+      width: 100%;
+      object-fit: contain;
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        width: auto;
+      }
+    }
+  }
+}
+
+// Past Years
+
+.past-years {
+  height: 500px;
+  background: rgba(168,210,205,0.70);
+  // margin-bottom: 40px;
+  @include center;
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    display: block;
+    height: auto;
+  }
+  &-slider {
+    margin-top: 40px;
+    .owl-dots {
+      display: none;
+    }
+    .owl-nav {
+      .owl-prev {
+        position: absolute;
+        top: 50%;
+        left: -40px;
+        outline: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        @media only screen and (max-width: 768px) {
+          left: -25px;
+        }
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          left: 0;
+        }
+        span {
+          i {
+            color: $primary-color;
+            font-size: 32px;
+          }
+        }
+      }
+      .owl-next {
+        position: absolute;
+        top: 50%;
+        right: -40px;
+        outline: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        @media only screen and (max-width: 768px) {
+          right: -25px;
+        }
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          right: 0;
+        }
+        span {
+          i {
+            color: $primary-color;
+            font-size: 32px;
+          }
+        }
+      }
+    }
+    img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+  }
+  &-list {
+    margin-top: 40px;
+    h1 {
+      color: $primary-color;
+      @include title;
+      font-size: 32px;
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style-position: inside;
+      li {
+        list-style-type: disc;
+        color: $primary-color;
+        @include ubuntu;
+        font-size: 16px;
+        padding-bottom: 10px;
+        a {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+

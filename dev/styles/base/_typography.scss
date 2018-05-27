@@ -1,0 +1,31 @@
+// Font definitions and default styles
+
+@font-face {
+  font-family: "Dosis Regular";
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"), url("../fonts/Dosis-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin title {
+  font-family: 'Dosis Regular';
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Ubuntu Regular";
+  src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff"), url("../fonts/Ubuntu-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+@mixin ubuntu {
+  font-family: 'Ubuntu Regular';
+  font-weight: 400;
+  font-style: normal;
+}
+

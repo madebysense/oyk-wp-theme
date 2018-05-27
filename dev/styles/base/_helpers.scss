@@ -1,0 +1,33 @@
+.full--width {
+  width: 100%;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-table {
+	display: table;
+}
+
+.d-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.no-padding {
+	padding: 0;
+}
+.pl-0 {
+	padding-left: 0;
+}
+
+.pr-0 {
+	padding-right: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.pull-right-xs {
+		float: none !important;
+	}
+}
