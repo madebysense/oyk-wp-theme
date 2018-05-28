@@ -112,4 +112,16 @@
   } // end the_breadcrumb()
 
   //// BREADCRUMB END ////
+
+  function getCalendarRowClass($startDate, $endDate)
+  {
+    $startTime = strtotime($startDate);
+    $endTime = strtotime($endDate);
+    $now = time();
+    if($now>=$startTime && $now<$endTime)
+      return "current";
+    if($now>$endTime)
+      return "passed";
+    return "";
+  }
 ?>
