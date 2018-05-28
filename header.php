@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css">
+  <link rel="icon" type="image/png" href="<?php bloginfo("template_url"); ?>/assets/images/favicon.png" />
   <?php wp_head(); ?>
 </head>
 
