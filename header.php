@@ -54,8 +54,8 @@
     </div>
   </div>
 </header>
-<nav class="header-menu">
+<nav class="header-menu hidden-xs">
   <div class="container">
-    <?php wp_nav_menu(array('the_location'=>'menu'));?>
+    <?php wp_nav_menu( array( 'theme_location' => 'menu', 'items_wrap' => '<ul id="menu-header">%3$s</ul>', 'menu_id' => 'menu-header')); ?>
   </div>
 </nav>
