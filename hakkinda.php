@@ -52,7 +52,7 @@ Template Name: Hakkında
       <div class="past-years-list col-md-push-1 col-md-5 col-xs-12 col-sm-7">
         <h1>Geçmiş Yıllar</h1>
         <ul>
-          <li><a href="http://kamp.linux.org.tr/2016/">Linux Yaz Kampı 2017</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li><a href="http://kamp.linux.org.tr/2017/">Linux Yaz Kampı 2017</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li><a href="http://kamp.linux.org.tr/2016/">Linux Yaz Kampı 2016</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li><a href="http://kamp.linux.org.tr/2015/">Linux Yaz Kampı 2015</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li><a href="http://kamp.linux.org.tr/2014/">Linux Yaz Kampı 2014</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
