@@ -247,3 +247,12 @@ nav.header-menu {
     display: block;
   }
 }
+
+#crumbs {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(55, 157, 166, 0.32);
+  margin-bottom: 20px;
+  a {
+    color: #379da6;
+  }
+}
