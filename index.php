@@ -20,50 +20,38 @@ Template Name: Ana sayfa
         <?php endif; ?>
       </div>
       <div class="col-md-5">
+      <div class="">
         <div class="calendar">
-          <div class="calendar-title">Takvim</div>
-          <div class="calendar-content">
-            <div class="calendar-content-block">
-              <div class="calendar-content-block-title">
-                Eğitimlerin Belirlenmesi
-              </div>
-              <div class="calendar-content-block-desc">
-                01 - 10 Haziran
-              </div>
-            </div>
-            <div class="calendar-content-block course">
-              <div class="calendar-content-block-title">
-                Katılımcı Başvuruları
-              </div>
-              <div class="calendar-content-block-desc special-date">
-                15 - 30 Haziran
-              </div>
-            </div>
-            <div class="calendar-content-block course">
-              <div class="calendar-content-block-title">
-                1. Tur Yerleştirmeler
-              </div>
-              <div class="calendar-content-block-desc special-date">
-                1 - 10 Temmuz
-              </div>
-            </div>
-            <div class="calendar-content-block course">
-              <div class="calendar-content-block-title">
-                2. Tur Yerleştirmeler
-              </div>
-              <div class="calendar-content-block-desc special-date">
-                10 - 18 Temmuz
-              </div>
-            </div>
-            <div class="calendar-content-block">
-              <div class="calendar-content-block-title">
-                KAMP
-              </div>
-              <div class="calendar-content-block-desc special-date">
-                20 Temmuz - 4 Ağustos
-              </div>
-            </div>
-          </div>
+        <table class="table">
+            <thead class="calendar-title">
+              <tr>
+                <th colspan="2" class="text-center">Takvim</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="passed">
+                <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
+                <td>01 - 10 Haziran</td>
+              </tr>
+              <tr class="current">
+                <td class="calendar-date-title">Katılımcı Başvuruları</td>
+                <td>15 - 30 Haziran</td>
+              </tr>
+              <tr>
+                <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
+                <td>1 - 10 Temmuz</td>
+              </tr>
+              <tr>
+                <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
+                <td>10 - 18 Temmuz</td>
+              </tr>
+              <tr>
+                <td class="calendar-date-title">KAMP</td>
+                <td>20 Temmuz - 4&nbsp;Ağustos</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         </div>
       </div>
     </div>
