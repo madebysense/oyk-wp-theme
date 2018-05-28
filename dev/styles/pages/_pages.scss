@@ -17,6 +17,9 @@
         border-bottom: 2px solid;
       }
     }
+    ul {
+      list-style-position: inside;
+    }
     .faq {
       counter-reset: item;
       li {

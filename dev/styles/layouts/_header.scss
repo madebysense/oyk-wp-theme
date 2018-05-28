@@ -46,19 +46,52 @@ header {
 nav.header-menu {
   background: $second-color;
   height: 60px;
-  // @include center;
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
-    display: none;
-  }
   ul {
     li {
-      display: inline-block;
+      float: left;
+      position: relative;
+      height: 60px;
+      list-style: none;
       @include title;
-      @include hover;
       &:hover {
         background: $primary-color;
         a {
           color: #fff;
+        }
+      }
+      &:hover {
+        ul.sub-menu {
+          opacity: 1;
+          visibility: visible;
+          top: 60px;
+          z-index: 99999;
+          li {
+            a {
+              &:hover {
+                color: $second-color !important;
+              }
+            }
+          }
+        }
+      }
+      ul.sub-menu {
+        background: $primary-color;
+        width: 200px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        opacity: 0;
+        transition: 250ms all;
+        visibility: hidden;
+        li {
+          position: relative;
+          float: left;
+          a {
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 20px;
+            color: #fff;
+          }
         }
       }
       a {
@@ -74,12 +107,12 @@ nav.header-menu {
         color: #fff;
       }
     }
-    .btn-proposal {
-      background: $primary-color;
-      @include hover;
-      &:hover {
-        @include hoverUp;
-      }
+  }
+  .btn-proposal {
+    background: $primary-color;
+    @include hover;
+    &:hover {
+      @include hoverUp;
     }
   }
 }
@@ -216,10 +249,7 @@ nav.header-menu {
 }
 
 .slicknav_nav .slicknav_row:hover {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  background: #ccc;
+  background: $second-color;
   color: #fff;
 }
 

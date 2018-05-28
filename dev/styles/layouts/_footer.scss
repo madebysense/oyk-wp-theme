@@ -6,7 +6,6 @@ footer {
   background-repeat: no-repeat;
   background-position: center bottom, center center;
   @media only screen and (min-width: 320px) and (max-width: 480px) {
-    height: 300px;
     background-size: contain;
   }
   .footer-widget {
