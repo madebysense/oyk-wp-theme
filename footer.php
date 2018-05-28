@@ -2,9 +2,25 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <div class="twitter-widget">
-          <h2>Twitter</h2>
+        <div class="footer-widget twitter-widget">
+          <h2>Son Tweetler</h2>
           <?php echo do_shortcode("[custom-twitter-feeds]"); ?>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="footer-widget social-media">
+          <h2>Sosyal Medya Hesapları</h2>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/ozguryazilimkampi" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ozguryazilimgun" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ozguryazilimkampi/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
       <?php
