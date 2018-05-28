@@ -4,6 +4,10 @@
   &-content {
     line-height: 24px;
     font-size: 14px;
+    a {
+      font-weight: 700;
+      border-bottom: 2px solid;
+    }
     &-title {
       font-size: 32px;
       padding-bottom: 5px;
