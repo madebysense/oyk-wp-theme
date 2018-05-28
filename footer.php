@@ -15,7 +15,7 @@
               <a href="https://www.facebook.com/ozguryazilimkampi" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="https://twitter.com/ozguryazilimgun" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://twitter.com/ozguryazkampi" target="_blank"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
               <a href="https://www.instagram.com/ozguryazilimkampi/" target="_blank"><i class="fab fa-instagram"></i></a>
