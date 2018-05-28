@@ -4,10 +4,6 @@
   &-content {
     line-height: 24px;
     font-size: 14px;
-    a {
-      font-weight: 700;
-      border-bottom: 2px solid;
-    }
     &-title {
       font-size: 32px;
       padding-bottom: 5px;
@@ -16,6 +12,10 @@
       font-size: 14px;
       line-height: 21px;
       padding-bottom: 15px;
+      a {
+        font-weight: 700;
+        border-bottom: 2px solid;
+      }
     }
     .faq {
       counter-reset: item;
@@ -52,6 +52,14 @@
     }
   }
   &-sidebar {
+    .sidebar {
+      ul {
+        list-style: none;
+        li {
+          list-style: none;
+        }
+      }
+    }
     .widget_nav_menu {
       h2 {
         padding-bottom: 10px;

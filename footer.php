@@ -12,13 +12,13 @@
           <h2>Sosyal Medya Hesapları</h2>
           <ul>
             <li>
-              <a href="https://www.facebook.com/ozguryazilimkampi" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/ozguryazilimkampi" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="https://twitter.com/ozguryazilimgun" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://twitter.com/ozguryazilimgun" target="_blank"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/ozguryazilimkampi/" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.instagram.com/ozguryazilimkampi/" target="_blank"><i class="fab fa-instagram"></i></a>
             </li>
           </ul>
         </div>
