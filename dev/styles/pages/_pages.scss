@@ -2,6 +2,8 @@
   margin-top: 40px;
   margin-bottom: 40px;
   &-content {
+    line-height: 24px;
+    font-size: 14px;
     &-title {
       font-size: 32px;
       padding-bottom: 5px;
@@ -10,6 +12,39 @@
       font-size: 14px;
       line-height: 21px;
       padding-bottom: 15px;
+    }
+    .faq {
+      counter-reset: item;
+      li {
+        padding-bottom: 10px;
+        background: rgba(55,157,166,.32);
+        margin-bottom: 10px;
+        padding: 8px 10px;
+        list-style-type: none;
+        counter-increment: item;
+        &:before {
+          display: inline-block;
+          width: 1.5em;
+          padding-right: 0.5em;
+          font-weight: bold;
+          text-align: right;
+          content: counter(item) ".";
+        }
+      }
+    }
+    #questions {
+      .list {
+        li {
+          .question {
+            background: rgba(55,157,166,.32);
+            margin-bottom: 5px;
+            padding: 8px 10px;
+          }
+          .answer {
+            margin-bottom: 20px;
+          }
+        }
+      }
     }
   }
   &-sidebar {
@@ -151,4 +186,20 @@ top: 5px;
 width: auto;
 z-index: 100000;
 /* Above WP toolbar. */
+}
+
+
+
+article.page-content .faq li {
+  background: rgba(55,157,166,.32);
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  list-style-type: none;
+  counter-increment:item;
+}
+
+div.question {background: rgba(55,157,166,.32);margin-bottom: 5px;padding: 8px 10px;}
+
+.answer {
+  margin-bottom: 20px;
 }
