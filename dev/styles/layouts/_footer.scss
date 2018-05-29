@@ -35,7 +35,7 @@ footer {
       color: rgba(55,157,166,1);
     }
     .ctf-item {
-      border: 0;
+      border: 0 !important;
       display: none;
       &:first-child {
         display: block;
