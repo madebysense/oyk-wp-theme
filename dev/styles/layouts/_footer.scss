@@ -34,11 +34,13 @@ footer {
     .ctf-tweet-text a {
       color: rgba(55,157,166,1);
     }
-    .ctf-item {
-      border: 0;
-      display: none;
-      &:first-child {
-        display: block;
+    #ctf {
+      .ctf-item {
+        border-top: 0;
+        display: none;
+        &:first-child {
+          display: block;
+        }
       }
     }
     a {
