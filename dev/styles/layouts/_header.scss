@@ -76,7 +76,7 @@ nav.header-menu {
       }
       ul.sub-menu {
         background: $primary-color;
-        width: 270px;
+        width: 340px;
         position: absolute;
         top: 80px;
         left: 0;
@@ -88,6 +88,7 @@ nav.header-menu {
           display: block;
           float: none;
           border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+          height: auto;
           &:last-child {
             border-bottom: 0;
           }
@@ -97,6 +98,7 @@ nav.header-menu {
             padding-right: 15px;
             font-size: 20px;
             color: #fff;
+            height: auto;
           }
         }
       }
