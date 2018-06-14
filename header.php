@@ -15,11 +15,11 @@
     ?>
   </title>
   <meta charset="UTF-8">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <meta property="og:title" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
+  <meta name="description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2018 20 Temmuz-4 Ağustos tarihleri arasında Bolu Abant İzzet Baysal Üniversitesinde. Başvurular 15-30 Haziran tarihlerinde.">
+  <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
+  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2018 20 Temmuz-4 Ağustos tarihleri arasında Bolu Abant İzzet Baysal Üniversitesinde. Başvurular 15-30 Haziran tarihlerinde." />
+  <meta property="og:url" content="<?=home_url( $wp->request )?>" />
+  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/ozgur-yazilim-yaz-kampi-2018.jpg" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
