@@ -509,6 +509,12 @@ $(function () {
 		}, 5000);
 	});
 
-
+	$(document).ready(function(){
+		var questionOrder = 1;
+		$('.faqQuestionText').each(function(){
+			$(this).prepend(questionOrder + '. ');
+			questionOrder++;
+		});
+	});
 
 });

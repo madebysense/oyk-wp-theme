@@ -1,11 +1,11 @@
 <?php
-  add_theme_support('menus');
-  register_nav_menus(array(
-    'menu' => 'Header Menü',
-  ));
-  register_sidebars(1, array('name'=>'Sidebar'));
+add_theme_support('menus');
+register_nav_menus(array(
+  'menu' => 'Header Menü',
+));
+register_sidebars(1, array('name'=>'Sidebar'));
   //// BREADCRUMB START ////
-   function the_breadcrumb() {
+function the_breadcrumb() {
 
     $showOnHome = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
     $delimiter = '&raquo;'; // delimiter between crumbs
@@ -92,49 +92,85 @@
         echo $before . 'Posts tagged "' . single_tag_title('', false) . '"' . $after;
 
       } elseif ( is_author() ) {
-         global $author;
-        $userdata = get_userdata($author);
-        echo $before . 'Articles posted by ' . $userdata->display_name . $after;
+       global $author;
+       $userdata = get_userdata($author);
+       echo $before . 'Articles posted by ' . $userdata->display_name . $after;
 
-      } elseif ( is_404() ) {
-        echo $before . 'Error 404' . $after;
-      }
-
-      if ( get_query_var('paged') ) {
-        if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
-        echo __('Page') . ' ' . get_query_var('paged');
-        if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
-      }
-
-      echo '</div>';
-
+     } elseif ( is_404() ) {
+      echo $before . 'Error 404' . $after;
     }
-  } // end the_breadcrumb()
 
-  //// BREADCRUMB END ////
+    if ( get_query_var('paged') ) {
+      if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
+      echo __('Page') . ' ' . get_query_var('paged');
+      if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
+    }
 
-  function getCalendarRowClass($startDate, $endDate)
-  {
-    $startTime = strtotime($startDate);
-    $endTime = strtotime($endDate);
-    $now = time();
-    if($now>=$startTime && $now<$endTime)
-      return "current";
-    if($now>$endTime)
-      return "passed";
-    return "";
+    echo '</div>';
+
   }
+} // end the_breadcrumb()
 
-  function registerButton($attrs)
-  {
-    // var_dump($attrs);
-    $defaults = array(
-      "href" => "https://kayit.linux.org.tr",
-      "text" => "Başvur"
-    );
-    $final = $defaults;
-    if(gettype($attrs)==="array") $final = $attrs + $defaults;
-    return '<a href="'. $final['href'] .'" target="_blank" class="btn btn-lyk">'. $final['text'] .'</a>';
-  }
+//// BREADCRUMB END ////
 
-  add_shortcode('basvuru-dugmesi', 'registerButton');
+function getCalendarRowClass($startDate, $endDate)
+{
+  $startTime = strtotime($startDate);
+  $endTime = strtotime($endDate);
+  $now = time();
+  if($now>=$startTime && $now<$endTime)
+    return "current";
+  if($now>$endTime)
+    return "passed";
+  return "";
+}
+
+function registerButton($attrs)
+{
+  $defaults = array(
+    "href" => "https://kayit.linux.org.tr",
+    "text" => "Başvur"
+  );
+  $final = $defaults;
+  if(gettype($attrs)==="array") $final = $attrs + $defaults;
+  return '<a href="'. $final['href'] .'" target="_blank" class="btn btn-lyk">'. $final['text'] .'</a>';
+}
+add_shortcode('basvuru-dugmesi', 'registerButton');
+
+function faqGroup($attrs, $content = null)
+{
+  $result = '<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">';
+  $result .= $content;
+  $result .= '</div>';
+  return $result;
+}
+add_shortcode('sss-grup', 'faqGroup');
+
+function faqQuestion($attrs, $content=null)
+{
+  $id = uniqid();
+  $result = '<div class="panel panel-default">';
+  $result .= '<div class="panel-heading" role="tab" id="heading'.$id.'">';
+  $result .= '<h4 class="panel-title">';
+  $result .= '<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$id.'" aria-expanded="true" aria-controls="collapse'.$id.'" class="faqQuestionText">';
+  $result .= $attrs['soru'];
+  $result .= '</a>';
+  $result .= '</h4>';
+  $result .= '</div>';
+  $result .= '<div id="collapse'.$id.'" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading'.$id.'">';
+  $result .= '<div class="panel-body">';
+  $result .= $content;
+  $result .= '</div>';
+  $result .= '</div>';
+  $result .= '</div>';
+  return $result;
+}
+add_shortcode('sss', 'faqQuestion');
+
+function the_content_filter($content) {
+  $block = join("|",array("basvuru-dugmesi", "sss-grup", 'sss'));
+  $rep = preg_replace("/(<p>)?\[($block)(\s[^\]]+)?\](<\/p>|<br \/>)?/","[$2$3]",$content);
+  $rep = preg_replace("/(<p>)?\[\/($block)](<\/p>|<br \/>)?/","[/$2]",$rep);
+  return $rep;
+}
+add_filter("the_content", "the_content_filter");

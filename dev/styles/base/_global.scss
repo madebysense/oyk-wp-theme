@@ -43,3 +43,10 @@ a:focus {
 li ul{
   margin-left: 15px !important;
 }
+
+.panel-default>.panel-heading{
+  background-color: rgba(55,157,166,.32);
+  .panel-title {
+    font-size: 24px;
+  }
+}
