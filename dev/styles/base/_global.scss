@@ -39,3 +39,7 @@ a:focus {
     @include hoverUp
   }
 }
+
+li ul{
+  margin-left: 15px !important;
+}
