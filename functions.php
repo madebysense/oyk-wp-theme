@@ -124,4 +124,17 @@
       return "passed";
     return "";
   }
-?>
+
+  function registerButton($attrs)
+  {
+    // var_dump($attrs);
+    $defaults = array(
+      "href" => "https://kayit.linux.org.tr",
+      "text" => "Başvur"
+    );
+    $final = $defaults;
+    if(gettype($attrs)==="array") $final = $attrs + $defaults;
+    return '<a href="'. $final['href'] .'" target="_blank" class="btn btn-lyk">'. $final['text'] .'</a>';
+  }
+
+  add_shortcode('basvuru-dugmesi', 'registerButton');
