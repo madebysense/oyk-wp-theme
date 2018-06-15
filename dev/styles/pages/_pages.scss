@@ -15,7 +15,8 @@
     }
     a {
       font-weight: 700;
-      border-bottom: 2px solid;
+      // border-bottom: 2px solid;
+      text-decoration: underline;
     }
     ul {
       list-style-position: inside;
@@ -39,19 +40,8 @@
         }
       }
     }
-    #questions {
-      .list {
-        li {
-          .question {
-            background: rgba(55,157,166,.32);
-            margin-bottom: 5px;
-            padding: 8px 10px;
-          }
-          .answer {
-            margin-bottom: 20px;
-          }
-        }
-      }
+    .img-thumbnail{
+      margin: 10px;
     }
   }
   &-sidebar {
