@@ -34,7 +34,7 @@ a:focus {
   color: $white;
   @include ubuntu;
   @include hover;
-  &:hover, &:active {
+  &:hover, &:active, &:focus {
     color: $white;
     @include hoverUp
   }
