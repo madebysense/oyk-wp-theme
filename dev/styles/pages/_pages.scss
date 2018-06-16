@@ -15,8 +15,7 @@
     }
     a {
       font-weight: 700;
-      // border-bottom: 2px solid;
-      text-decoration: underline;
+      border-bottom: 2px solid;
     }
     ul {
       list-style-position: inside;
@@ -39,9 +38,6 @@
           content: counter(item) ".";
         }
       }
-    }
-    .img-thumbnail{
-      margin: 10px;
     }
   }
   &-sidebar {
@@ -193,18 +189,9 @@ a img.aligncenter {
   /* Above WP toolbar. */
 }
 
-
-
-article.page-content .faq li {
-  background: rgba(55,157,166,.32);
-  margin-bottom: 10px;
-  padding: 8px 10px;
-  list-style-type: none;
-  counter-increment:item;
-}
-
-div.question {background: rgba(55,157,166,.32);margin-bottom: 5px;padding: 8px 10px;}
-
-.answer {
-  margin-bottom: 20px;
+.supporting-institutions{
+  .img-thumbnail{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
