@@ -13,23 +13,21 @@ Template Name: Katılımcı Kurumlar
         <?php if (function_exists('the_breadcrumb')) the_breadcrumb(); ?>
         <h2 class="text-center">Organizasyon</h2>
         <div class="row text-center">
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1-5">
             <a href="http://www.lkd.org.tr/" target="_blank" title="Türkiye Linux Kullanıcıları Derneği">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/tlkd.jpg" alt="Türkiye Linux Kullanıcıları Derneği" />
             </a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-3">
             <a href="http://www.ibu.edu.tr/tr" target="_blank" title="Abant İzzet Baysal Üniversitesi">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/aibu.jpg" alt="Abant İzzet Baysal Üniversitesi" />
             </a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-3">
             <a href="https://www.pardus.org.tr/" target="_blank" title="Pardus">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/pardus.jpg" alt="Pardus" />
             </a>
           </div>
-        </div>
-        <div class="row">
           <div class="col-xs-6 col-sm-3">
             <a href="http://www.inetd.org.tr/" target="_blank" title="İnternet Teknolojileri Derneği">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/inetd.jpg" alt="İnternet Teknolojileri Derneği" />
@@ -54,17 +52,17 @@ Template Name: Katılımcı Kurumlar
         <hr>
         <h2 class="text-center">Sınıf Sponsorları</h2>
         <div class="row text-center">
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-3 col-sm-offset-1-5">
             <a href="http://hipo.biz/" target="_blank" title="Hipo">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/hipo.jpg" alt="Hipo" />
             </a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-3">
             <a href="https://ozguryazilim.com.tr" target="_blank" title="Özgür Yazılım A.Ş.">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/oyas.jpg" alt="Özgür Yazılım A.Ş." />
             </a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-3">
             <a href="https://mono.net.tr" target="_blank" title="Mono Bilişim">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/mono.jpg" alt="Mono Bilişim" />
             </a>

@@ -55,3 +55,9 @@ a:focus {
     }
   }
 }
+
+@media (min-width: 768px) {
+  .col-sm-offset-1-5{
+    margin-left:12.499999995%;
+  }
+}
