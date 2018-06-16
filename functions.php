@@ -168,7 +168,7 @@ function faqQuestion($attrs, $content=null)
 add_shortcode('sss', 'faqQuestion');
 
 function the_content_filter($content) {
-  $block = join("|",array("basvuru-dugmesi", "sss-grup", 'sss'));
+  $block = join("|",array("sss-grup", 'sss'));
   $rep = preg_replace("/(<p>)?\[($block)(\s[^\]]+)?\](<\/p>|<br \/>)?/","[$2$3]",$content);
   $rep = preg_replace("/(<p>)?\[\/($block)](<\/p>|<br \/>)?/","[/$2]",$rep);
   return $rep;
