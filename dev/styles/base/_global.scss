@@ -38,7 +38,7 @@ a:focus {
     color: $white;
     @include hoverUp
   }
-  border-bottom:none;
+  border-bottom: none !important;
 }
 
 .page-content li ul{
