@@ -115,9 +115,19 @@ Template Name: Katılımcı Kurumlar
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-6 col-sm-3 col-sm-offset-3">
+          <div class="col-xs-6 col-sm-3">
             <a href="http://ulakbim.tubitak.gov.tr" target="_blank" title="TÜBİTAK ULAKBİM">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/tubitak-ulakbim.jpg" alt="TÜBİTAK ULAKBİM" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="https://www.hazine.gov.tr" target="_blank" title="T.C. Başbakanlık Hazine Müsteşarlığı">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/hazine-mustesarligi.jpg" alt="T.C. Başbakanlık Hazine Müsteşarlığı" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="http://havelsan.com.tr" target="_blank" title="Havelsan">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/havelsan.jpg" alt="Havelsan" />
             </a>
           </div>
           <div class="col-xs-6 col-sm-3">
