@@ -136,6 +136,18 @@ Template Name: Katılımcı Kurumlar
             </a>
           </div>
         </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 col-sm-offset-3">
+            <a href="https://www.veriteknik.net.tr" target="_blank" title="Veriteknik">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/veriteknik.jpg" alt="Veriteknik" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="https://canovate.com/" target="_blank" title="CANOVATE">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/canovate.jpg" alt="CANOVATE" />
+            </a>
+          </div>
+        </div>
       </article>
     </div>
   </div>
