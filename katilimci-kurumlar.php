@@ -121,6 +121,11 @@ Template Name: Katılımcı Kurumlar
         </div>
         <div class="row">
           <div class="col-xs-6 col-sm-3">
+            <a href="https://www.profelis.com.tr" target="_blank" title="Profelis">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/profelis.jpg" alt="Profelis" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
             <a href="http://ulakbim.tubitak.gov.tr" target="_blank" title="TÜBİTAK ULAKBİM">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/tubitak-ulakbim.jpg" alt="TÜBİTAK ULAKBİM" />
             </a>
@@ -135,14 +140,14 @@ Template Name: Katılımcı Kurumlar
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/havelsan.jpg" alt="Havelsan" />
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col-xs-6 col-sm-3">
             <a href="http://www.msb.gov.tr" target="_blank" title="Milli Savunma Bakanlığı">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/milli-savunma-bakanligi.jpg" alt="Milli Savunma Bakanlığı" />
             </a>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-sm-3 col-sm-offset-3">
+          <div class="col-xs-6 col-sm-3">
             <a href="https://www.veriteknik.net.tr" target="_blank" title="Veriteknik">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/veriteknik.jpg" alt="Veriteknik" />
             </a>
@@ -150,6 +155,11 @@ Template Name: Katılımcı Kurumlar
           <div class="col-xs-6 col-sm-3">
             <a href="https://canovate.com/" target="_blank" title="CANOVATE">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/canovate.jpg" alt="CANOVATE" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="https://www.workif.com" target="_blank" title="Workif">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/workif.jpg" alt="Workif" />
             </a>
           </div>
         </div>
