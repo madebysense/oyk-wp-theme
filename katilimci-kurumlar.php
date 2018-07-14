@@ -52,7 +52,7 @@ Template Name: Katılımcı Kurumlar
         <hr>
         <h2 class="text-center">Sınıf Sponsorları</h2>
         <div class="row text-center">
-          <div class="col-xs-6 col-sm-3">
+          <div class="col-xs-6 col-sm-3 col-sm-offset-1-5">
             <a href="http://hipo.biz/" target="_blank" title="Hipo">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/hipo.jpg" alt="Hipo" />
             </a>
@@ -67,9 +67,21 @@ Template Name: Katılımcı Kurumlar
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/mono.jpg" alt="Mono Bilişim" />
             </a>
           </div>
-          <div class="col-xs-6 col-sm-3">
+        </div>
+        <div class="row text-center">
+          <div class="col-xs-6 col-sm-3 col-sm-offset-1-5">
             <a href="https://www.gozensystems.com" target="_blank" title="GÖZEN SYSTEMS">
               <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/gozen.jpg" alt="GÖZEN SYSTEMS" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="http://lab2023.com" target="_blank" title="Lab2023">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/lab2023.jpg" alt="Lab2023" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="http://havelsan.com.tr" target="_blank" title="Havelsan">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/havelsan.jpg" alt="Havelsan" />
             </a>
           </div>
         </div>
