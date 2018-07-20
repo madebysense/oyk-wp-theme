@@ -23,30 +23,26 @@
           </ul>
         </div>
       </div>
-      <?php
-      /**
-      <div class="col-md-8">
-          <h2 class="supporter-title">Sponsorlar</h2>
-          <div class="footer-widget-supporter">
-            <a class="supporter-list-item" href="#"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyaslogo.png" alt=""></a>
-            <a class="supporter-list-item" href="#"><img src="<?php bloginfo("template_url"); ?>/assets/images/hipo.png" alt=""></a>
-            <a class="supporter-list-item" href="#"><img src="<?php bloginfo("template_url"); ?>/assets/images/blue.png" alt=""></a>
-            <a class="supporter-list-item" href="#"><img src="<?php bloginfo("template_url"); ?>/assets/images/profiles.png" alt=""></a>
-            <a class="supporter-list-item" href="#"><img src="<?php bloginfo("template_url"); ?>/assets/images/lab2023.png" alt=""></a>
+      <div class="col-md-4">
+        <div class="footer-widget">
+          <h2>Ana Sponsor</h2>
+          <div class=" col-md-6 main-sponsor text-center" style="background: #fff;border:1px solid #fff;border-radius: 5px;padding:15px;margin-bottom: 15px;">
+            <a href="https://fundrequest.io" target="_blank" title="Ana Sponsor: FundRequest">
+              <img src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/FundRequest-logo.svg" alt="FundRequest" class="img-responsive">
+            </a>
           </div>
         </div>
-      */
-      ?>
+      </div>
     </div>
   </div>
 </footer>
 
-  <script src="<?php bloginfo("template_url"); ?>/assets/js/jquery.min.js"></script>
-  <script src="<?php bloginfo("template_url"); ?>/assets/js/bootstrap.min.js"></script>
-  <script src="<?php bloginfo("template_url"); ?>/assets/js/owl.carousel.min.js"></script>
-  <script src="<?php bloginfo("template_url"); ?>/assets/js/modernizr.min.js"></script>
-  <script src="<?php bloginfo("template_url"); ?>/assets/js/jquery.fancybox.min.js"></script>
-  <script src="<?php bloginfo("template_url"); ?>/assets/js/main.min.js"></script>
-  <?php wp_footer(); ?>
+<script src="<?php bloginfo("template_url"); ?>/assets/js/jquery.min.js"></script>
+<script src="<?php bloginfo("template_url"); ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo("template_url"); ?>/assets/js/owl.carousel.min.js"></script>
+<script src="<?php bloginfo("template_url"); ?>/assets/js/modernizr.min.js"></script>
+<script src="<?php bloginfo("template_url"); ?>/assets/js/jquery.fancybox.min.js"></script>
+<script src="<?php bloginfo("template_url"); ?>/assets/js/main.min.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>

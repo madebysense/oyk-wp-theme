@@ -20,38 +20,46 @@ Template Name: Ana sayfa
         <?php endif; ?>
       </div>
       <div class="col-md-5">
-      <div class="">
-        <div class="calendar">
-        <table class="table">
-            <thead class="calendar-title">
-              <tr>
-                <th colspan="2" class="text-center">Takvim</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="<?=getCalendarRowClass("01-06-2018", "11-06-2018")?>">
-                <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
-                <td>01 - 10 Haziran</td>
-              </tr>
-              <tr class="<?=getCalendarRowClass("15-06-2018", "01-07-2018")?>">
-                <td class="calendar-date-title">Katılımcı Başvuruları</td>
-                <td>15 - 30 Haziran</td>
-              </tr>
-              <tr class="<?=getCalendarRowClass("01-07-2018", "11-07-2018")?>">
-                <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
-                <td>1 - 10 Temmuz</td>
-              </tr>
-              <tr class="<?=getCalendarRowClass("10-07-2018", "19-07-2018")?>">
-                <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
-                <td>10 - 18 Temmuz</td>
-              </tr>
-              <tr class="<?=getCalendarRowClass("20-07-2018", "05-08-2018")?>">
-                <td class="calendar-date-title">KAMP</td>
-                <td>20 Temmuz - 4&nbsp;Ağustos</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6 main-sponsor text-center" style="background: #fff;border:1px solid #fff;border-radius: 5px;padding:15px;margin-bottom: 15px;padding-top:5px;">
+            <small class="text-muted">Ana Sponsor</small><br>
+            <a href="https://fundrequest.io" target="_blank" title="Ana Sponsor: FundRequest">
+              <img src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/FundRequest-logo.svg" alt="FundRequest" class="img-responsive">
+            </a>
+          </div>
         </div>
+        <div class="">
+          <div class="calendar">
+            <table class="table">
+              <thead class="calendar-title">
+                <tr>
+                  <th colspan="2" class="text-center">Takvim</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="<?=getCalendarRowClass("01-06-2018", "11-06-2018")?>">
+                  <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
+                  <td>01 - 10 Haziran</td>
+                </tr>
+                <tr class="<?=getCalendarRowClass("15-06-2018", "01-07-2018")?>">
+                  <td class="calendar-date-title">Katılımcı Başvuruları</td>
+                  <td>15 - 30 Haziran</td>
+                </tr>
+                <tr class="<?=getCalendarRowClass("01-07-2018", "11-07-2018")?>">
+                  <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
+                  <td>1 - 10 Temmuz</td>
+                </tr>
+                <tr class="<?=getCalendarRowClass("10-07-2018", "19-07-2018")?>">
+                  <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
+                  <td>10 - 18 Temmuz</td>
+                </tr>
+                <tr class="<?=getCalendarRowClass("20-07-2018", "05-08-2018")?>">
+                  <td class="calendar-date-title">KAMP</td>
+                  <td>20 Temmuz - 4&nbsp;Ağustos</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
