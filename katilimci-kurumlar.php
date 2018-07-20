@@ -50,6 +50,15 @@ Template Name: Katılımcı Kurumlar
           </div>
         </div>
         <hr>
+        <h2 class="text-center">Ana Sponsor</h2>
+        <div class="row text-center">
+          <div class="col-xs-6 col-sm-4 col-sm-offset-4">
+            <a href="https://fundrequest.io" target="_blank" title="FUNDREQUEST">
+              <img class="img-thumbnail img-responsive" src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/fundrequest.jpg" alt="FUNDREQUEST" />
+            </a>
+          </div>
+        </div>
+        <hr>
         <h2 class="text-center">Sınıf Sponsorları</h2>
         <div class="row text-center">
           <div class="col-xs-6 col-sm-3 col-sm-offset-1-5">
