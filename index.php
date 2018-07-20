@@ -21,7 +21,7 @@ Template Name: Ana sayfa
       </div>
       <div class="col-md-5">
         <div class="row">
-          <div class="col-md-offset-3 col-md-6 main-sponsor text-center" style="background: #fff;border:1px solid #fff;border-radius: 5px;padding:15px;margin-bottom: 15px;padding-top:5px;">
+          <div class="col-xs-offset-3 col-xs-6 main-sponsor text-center" style="background: #fff;border:1px solid #fff;border-radius: 5px;padding:15px;margin-bottom: 15px;padding-top:5px;">
             <small class="text-muted">Ana Sponsor</small><br>
             <a href="https://fundrequest.io" target="_blank" title="Ana Sponsor: FundRequest">
               <img src="<?php bloginfo("template_url"); ?>/assets/images/destekleyen-kurumlar/FundRequest-logo.svg" alt="FundRequest" class="img-responsive">
